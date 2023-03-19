@@ -1,0 +1,7 @@
+[[language]]
+name = "c-sharp"
+language-server = { command = "dotnet", args = [ "path/to/OmniSharp.dll", "--languageserver" ] }
+
+[[language]]
+name = "java"
+language-server = { command = "jdtls", args = ["-data", "/home/my_user/.cache/jdtls/my_project"] }
